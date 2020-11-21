@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dev Skills</title>
+</head>
+<body>
+    <h1>My Dev Skills</h1>
+    <h3>Skills as of <%= date %>:</h3>
+    <% skills.forEach(skill => { %>
+        <div><%= skill.skill %>, level <%= skill.level %></div>
+    <% }) %>
+    <br>
+    <a href="/">Home</a>
+</body>
+</html> 
